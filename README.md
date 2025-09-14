@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐶 Dog Social App - Next.js & TypeScript
 
-## Getting Started
+### A social photo-sharing app for dogs built with **Next.js**, **React**, and **TypeScript**. This project integrates with the [Origamid Dogs API](https://dogsapi.origamid.dev/) to provide user authentication, photo uploads, comments, and a responsive feed.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <img src="https://github.com/caiofeitosadev/dog-social-app/blob/main/src/Assets/dog-social-app.gif" alt="Project Screenshot" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔑 User authentication (login & register)
+- 📷 Photo upload with title, weight, and age
+- 📰 Infinite scroll feed
+- 💬 Comment system
+- 👤 User profiles
+- 🖼️ Modal photo view with parallel routes
+- 📱 Responsive design with CSS Modules
+- ⚡ Server & Client Components
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 15](https://nextjs.org/) (App Router)
+- [React 18](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Origamid Dogs API](https://dogsapi.origamid.dev/)
+- CSS Modules
+- Context API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+app/
+├── foto/[id]/ # Photo page
+├── perfil/[user]/ # User profile
+├── api/ # API actions (server functions)
+└── components/ # Reusable UI components
 
-## Deploy on Vercel
+### 🚀 How to Run the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clone the repository:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    git clone [https://github.com/caiofeitosadev/dogs-app.git](https://github.com/caiofeitosadev/dogs-app.git)
+    cd dogs-app
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    The application will be available at `http://localhost:5173/` (or another port indicated by Vite).
+
+---
+
+### 📄 License
+
+This project is under the MIT license.
